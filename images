@@ -1,0 +1,99 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تخطيط مواقف الرياض</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #0a74da;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    .images img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #0a74da;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>حلول احترافية لمواقف السيارات وتركيب عيون القطط في الرياض</h1>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#about">عن الخدمة</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <!-- الصفحة الرئيسية -->
+  <section id="home">
+    <p>نحن نقدم خدمات تخطيط مواقف السيارات وتركيب عيون القطط لضمان السلامة والدقة مع تنفيذ سريع وأسعار مناسبة.</p>
+    <h2>معرض أعمالنا</h2>
+    <div class="images">
+      <img src="images/image1.jpg" alt="عملنا 1">
+      <img src="images/image2.jpg" alt="عملنا 2">
+      <img src="images/image3.jpg" alt="عملنا 3">
+      <img src="images/image4.jpg" alt="عملنا 4">
+      <img src="images/image5.jpg" alt="عملنا 5">
+    </div>
+  </section>
+
+  <!-- صفحة عن الخدمة -->
+  <section id="about">
+    <h2>عن خدماتنا</h2>
+    <p>خبرتنا تمتد لسنوات في مجال تخطيط مواقف السيارات وتركيب عيون القطط. نحرص على تقديم حلول دقيقة وعملية تناسب جميع العملاء.</p>
+    <ul>
+      <li>سرعة التنفيذ</li>
+      <li>جودة العمل</li>
+      <li>دقة التخطيط</li>
+    </ul>
+  </section>
+
+  <!-- صفحة تواصل -->
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>للاستفسار أو الحصول على عرض أسعار، تواصل معنا مباشرة عبر واتساب أو البريد الإلكتروني:</p>
+    <ul>
+      <li>واتساب: <a href="https://wa.me/رقمك">اضغط هنا</a></li>
+      <li>البريد الإلكتروني: example@example.com</li>
+    </ul>
+  </section>
+
+  <footer>
+    <a href="https://wa.me/رقمك" class="whatsapp-btn">تواصل عبر واتساب</a>
+  </footer>
+</body>
+</html>
